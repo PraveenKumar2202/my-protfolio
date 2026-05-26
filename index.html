@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Design Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Design Engineer</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="menu-btn" id="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Praveen</h1>
+            <h3>And I'm a <span class="typing-text"></span></h3>
+            <p>Detail-oriented Design Engineer with hands-on experience in R&D, production support, and engineering software automation. Specialized in creating high-efficiency mechanical systems and optimizing manufacturing workflows.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#contact" class="btn">Let's Connect</a>
+                <a href="#" class="btn secondary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="img-box">
+                <i class="fa-solid fa-gears engineering-avatar-icon"></i>
+            </div>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Design Engineer & Innovator</h3>
+            <p>I am a passionate Design Engineer specializing in 3D modeling, rigorous structural problem-solving, and advanced engineering systems. With a solid foundation in industrial manufacturing and product development, I bridge the gap between initial concepts and production-ready systems.</p>
+            <p>My core approach integrates modern CAD/CAM pipelines with data-driven optimization—such as executing dynamic engineering workflows that actively reduce material wastage and managing seamless Bills of Materials (BOM) to streamline production floors.</p>
+            <a href="#skills" class="btn">Explore Skills</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="mechanical">Mechanical Design</button>
+            <button class="filter-btn" data-filter="consulting">Operational Consulting</button>
+        </div>
+
+        <div class="services-container">
+            <div class="services-box" data-category="mechanical">
+                <i class="fa-solid fa-cubes"></i>
+                <h3>CAD Design & Drafting</h3>
+                <p>Delivering production-ready 2D drafting and complex 3D assembly models. Expert management of parametric design workflows.</p>
+            </div>
+            <div class="services-box" data-category="mechanical">
+                <i class="fa-solid fa-bezier-curve"></i>
+                <h3>3D Modeling & Rendering</h3>
+                <p>Creating highly accurate industrial design models for manufacturing verification, prototype generation, and cinematic presentation renders.</p>
+            </div>
+            <div class="services-box" data-category="consulting">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Wastage & Process Optimization</h3>
+                <p>Analyzing existing production designs to minimize material scrap metrics, refine assembly tolerances, and lower material overheads.</p>
+            </div>
+            <div class="services-box" data-category="mechanical">
+                <i class="fa-solid fa-list-check"></i>
+                <h3>BOM Management</h3>
+                <p>Compiling, structuring, and auditing comprehensive Bill of Materials (BOM) to ensure absolute sourcing accuracy and flawless assembly tracking.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+                                    <!-- Updated Software Skills Block -->
+            <div class="skills-column">
+                <h3 class="title">Engineering Software</h3>
+                <div class="skills-box-container">
+                    <div class="skill-item"><i class="fa-solid fa-desktop"></i> Siemens NX</div>
+                    <div class="skill-item"><i class="fa-solid fa-drafting-compass"></i> SolidWorks</div>
+                    <div class="skill-item"><i class="fa-solid fa-pencil"></i> AutoCAD</div>
+                    
+                    <!-- New Advanced Software Skills -->
+                    <div class="skill-item"><i class="fa-solid fa-bezier-curve"></i> Creo / Pro-E</div>
+                    <div class="skill-item"><i class="fa-solid fa-shapes"></i> CATIA</div>
+                    <div class="skill-item"><i class="fa-solid fa-chart-line"></i> ANSYS (FEA)</div>
+                    
+                    <div class="skill-item"><i class="fa-solid fa-layer-group"></i> Geometric Dimensioning & Tolerancing (GD&T)</div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Attributes</h3>
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>Creativity <span>90%</span></h3>
+                        <div class="bar"><span style="width: 90%;"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Problem Solving <span>88%</span></h3>
+                        <div class="bar"><span style="width: 88%;"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Team Collaboration <span>85%</span></h3>
+                        <div class="bar"><span style="width: 85%;"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <div class="project-content">
+                    <h3>High-Efficiency Mechanical Assembly</h3>
+                    <p>Designed a complex mechanical enclosure assembly utilizing Siemens NX. Engineered parametric frameworks that successfully secured a 2% reduction in raw material wastage during manufacturing execution profiles.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Details</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-content">
+                    <h3>Automated BOM Architecture System</h3>
+                    <p>Developed a rigorous tracking protocol linking SolidWorks configuration structures directly to production inventory systems to optimize item routing metrics and procurement lifecycles.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
